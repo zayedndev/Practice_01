@@ -1,0 +1,311 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+
+} 
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(death\ noto.jpg);
+    background-position: center ;
+    background-size: cover ;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 184, 216);
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: azure;
+    font-size: 50px;
+}
+
+p{
+    color: rgb(233, 233, 233);
+    font-size: 11px;
+    line-height: 15px;
+    display: center;
+}
+
+button{
+    width: 15%;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgb(121, 89, 89);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+button:hover{
+    color: rgb(17, 0, 255);
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.4s;
+}
+
+.card1{
+    background-image: url(black.png);
+}
+
+.card2{
+    background-image: url(over.jpg);
+}
+.card3{
+    background-image: url(bull.jpg);
+}
+
+.card4{
+    background-image: url(gojo.jpg);
+}
+
+.card5{
+    background-image: url(jujusta.jpg);
+}
+
+.card6{
+    background-image: url(attckon.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px)
+}
+
+h5{
+    color: #ffff;
+    text-shadow: 0 0 5px #999;
+}
+
+                                                        /*----------- course ------------*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+ .course h1{
+    color: #000;
+ }
+ .course p{
+    color: rgb(65, 38, 38);
+    font-size: 15px;
+ }
+
+ .roe{
+    margin: 7%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .course-col{
+    flex-basis: 32%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+ }
+
+ h2{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+ }
+
+ .course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+ }
+
+
+                                                               /*----------- campus-----------*/
+
+
+ .campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+ }
+ .campus h1{
+    color: #000;
+ }
+ .campus p{
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+ }
+ .campus-col{
+    flex-basis: 33%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .campus-col img{
+    width: 100%;
+ }
+
+ .layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+ }
+
+ .layer:hover{
+    background: rgba(167, 167, 204, 0.7);
+ }
+
+ .layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff3f3;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+ }
+
+ .layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+ }
+
+
+
+                                                                          /*--------- Facilities ---------*/   
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilities h1{
+    color: #000;
+}
+
+.facilities p{
+    color: rgb(65, 38, 38);
+    font-size: 15px;
+}
+
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+
+}
+
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col p{
+    padding: 0;
+}
+
+.facilities-col h3{
+    margin: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+                                                                          /*--------- about ---------*/   
+.About-col{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}   
+
+.About-col h1{
+    color: #000;
+}
+
+.About-col p{
+    color: rgb(65, 38, 38);
+    font-size: 15px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
